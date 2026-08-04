@@ -1,3 +1,43 @@
+header {
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    padding: 12px 20px;
+}
+
 .navbar nav {
+    align-items: center;
+}
+
+.navbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
     text-align: center;
+    text-decoration: none;
+    /* text colour */
+    color: #fff;
+    /* foreground colour */
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navbutton:hover {
+    /* background hover */
+    background-color: #fff;
+    /* text colour */
+    color: #ff5252;
+    /* border when hovering */
+    border: 2px solid #ff5252;
+    /* drop shadow of the box */
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+.navbutton:active {
+    box-shadow: none;
+    transform: translateY(4px);
 }
