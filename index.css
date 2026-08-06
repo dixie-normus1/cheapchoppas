@@ -2,9 +2,7 @@ header {
     background-color: #252525;
     border: 5px solid #252525;
     padding: 12px 20px;
-    position: fixed;
-    top: 0;
-    left: 0; 
+    margin: -8px;
 }
 
 .navbar nav {
