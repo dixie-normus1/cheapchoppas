@@ -2,6 +2,9 @@ header {
     background-color: #252525;
     border: 5px solid #252525;
     padding: 12px 20px;
+    position: fixed;
+    top: 0;
+    left: 0; 
 }
 
 .navbar nav {
@@ -22,10 +25,10 @@ header {
     /* text colour */
     color: #fff;
     /* foreground colour */
-    background-color: #ff5252;
-    border: 2px solid #000;
+    background-color: #462255;
+    border: 2px solid #462255;
     border-radius: 10px;
-    box-shadow: 5px 5px 0px #000;
+    box-shadow: 5px 5px 0px #E4D7FF;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -34,11 +37,11 @@ header {
     /* background hover */
     background-color: #fff;
     /* text colour */
-    color: #ff5252;
+    color: #462255;
     /* border when hovering */
-    border: 2px solid #ff5252;
+    border: 2px solid #462255;
     /* drop shadow of the box */
-    box-shadow: 5px 5px 0px #ff5252;
+    box-shadow: 5px 5px 0px #462255;
 }
 
 .navbutton:active {
