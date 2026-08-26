@@ -1,0 +1,104 @@
+@font-face {
+    font-family: Rowdies;
+    src: url("../assets/fonts/Rowdies-Regular.ttf") format('truetype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("../assets/fonts/Ubuntu-Regular.ttf") format('truetype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: #252525;
+    border: 5px solid #252525;
+    padding: 12px 20px;
+    margin: -8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.navbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: rowdies;
+    text-align: center;
+    text-decoration: none;
+    /* text colour */
+    color: #fff;
+    /* foreground colour */
+    background-color: #462255;
+    border: 2px solid #462255;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #E4D7FF;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.navbutton:hover {
+    /* background hover */
+    background-color: #fff;
+    /* text colour */
+    color: #462255;
+    /* border when hovering */
+    border: 2px solid #462255;
+    /* drop shadow of the box */
+    box-shadow: 5px 5px 0px #462255;
+}
+
+.navbutton:active {
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+
+
+
+footer {
+    padding: 12px 20px;
+    margin-bottom: -8px;
+}
+
+footer nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footerbutton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #462255;
+    border: 2px solid #462255;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.footerbutton:hover {
+    background-color: #E4D7FF;
+    border: 2px solid #462255;
+}
+
+.footerbutton:active {
+    transform: translateY(4px);
+}
