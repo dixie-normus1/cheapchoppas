@@ -70,12 +70,13 @@ header {
 
 /* For refrence, vw/vh = viewpoint width/height & fr = fraction */
 .content {
+    padding-top: 2%;
     width: 80vw;
     max-width: 1000px;
 
     display: grid;
-    grid-template-columns: 1fr 1.4fr 1fr;
-    grid-template-rows: 1fr 100px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.7fr;
     gap: 40px;
     align-items: center;
     margin: 0 auto;
@@ -90,6 +91,17 @@ header {
 
 .content img {
     width: 100%;
+}
+
+.t-right {
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0px 45px;
+}
+
+.b-right {
+    grid-row: 2;
+    grid-column: 1;
 }
 
 footer {
