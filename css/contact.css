@@ -96,7 +96,6 @@ header {
 .t-right {
     grid-row: 1;
     grid-column: 1;
-    padding: 0px 45px;
 }
 
 .details {
@@ -108,7 +107,8 @@ header {
     flex-direction: column;
 }
 
-.mail, .phone {
+.mail,
+.phone {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,13 +119,22 @@ header {
     width: 9%;
 }
 
- .phone img {
+.phone img {
     width: 12%;
 }
 
 .map {
-    grid-row: 1/3;
+    grid-row: 1;
     grid-column: 2;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 footer {
