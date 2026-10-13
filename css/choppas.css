@@ -74,8 +74,10 @@ header {
     max-width: 1000px;
 
     display: grid;
+    align-items: top;
+    padding: 25px 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr;
     gap: 40px;
     align-items: center;
     margin: 0 auto;
@@ -106,6 +108,62 @@ header {
 .two {
     grid-column: 2;
     grid-row: 2;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.four {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.six {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.seven {
+    grid-column: 3;
+    grid-row: 3;
+
+}
+
+.eight {
+    grid-column: 4;
+    grid-row: 3;
+
+}
+
+.nine {
+    grid-column: 1;
+    grid-row: 4;
+
+}
+
+.ten {
+    grid-column: 2;
+    grid-row: 4;
+
+}
+
+.eleven {
+    grid-column: 3;
+    grid-row: 4;
+
+}
+
+.twelve {
+    grid-column: 4;
+    grid-row: 4;
+
 }
 
 footer {
