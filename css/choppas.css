@@ -1,4 +1,4 @@
-@font-face{
+@font-face {
     font-family: Rowdies;
     src: url("../assets/fonts/Rowdies-Regular.ttf") format('truetype');
     font-display: swap;
@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-@font-face{
+@font-face {
     font-family: Ubuntu;
     src: url("../assets/fonts/Ubuntu-Regular.ttf") format('truetype');
     font-display: swap;
@@ -68,7 +68,69 @@ header {
     transform: translateY(4px);
 }
 
-h1, p {
+/* For refrence, vw/vh = viewpoint width/height & fr = fraction */
+.content {
+    width: 80vw;
+    max-width: 1000px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    margin: 0 auto;
+
     font-family: ubuntu;
     text-align: center;
+}
+
+.content h1 {
+    font-family: rowdies;
+}
+
+.content img {
+    width: 100%;
+}
+
+.top {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    padding: 0;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+footer {
+    padding: 12px 20px;
+    margin-bottom: -8px;
+}
+
+footer nav {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.footerbutton {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #462255;
+    border: 2px solid #462255;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.footerbutton:hover {
+    background-color: #E4D7FF;
+    border: 2px solid #462255;
+}
+
+.footerbutton:active {
+    transform: translateY(4px);
 }
